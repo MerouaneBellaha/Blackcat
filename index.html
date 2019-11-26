@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>BlackCat</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel=Stylesheet type="text/css" href="Css/main.css">
+</head>
+
+<body class="bg">
+
+    <header id="Home" >
+        <nav>
+            <a href="#Home" rel="Home" class="Navlogo"><img src="Logo/Logo.svg" alt="BlackCatLogo"></a>
+            <a href="" rel="Menu" class="Navburger"><img src="Burger.svg" alt="BurgerMenu" ></a>
+        </nav>
+        
+        <div class="Home">
+            <h1 class="pagetitle">Hello, I'm</h1>
+            <img src="Logo/Logo.svg" alt="BlackCatLogo" class="Hellologo">
+            <p>
+                I’m not just the web-developer 
+                exercise, I m a cat. <a href="#Home" rel="Home" class="wordstyle">The black cat</a>. 
+                Check my <a href="#portfolio" rel="portfolio" class="wordstyle">portfolio</a> if you doubt it ! 
+                And if you like my work as a cat, 
+                don’t be shy and reach me to talk 
+                about an <a href="#adoptme" rel="adoption" class="wordstyle">adoption</a>. 
+            </p>
+            <div class=portfoliobutton>
+                <a href="#portfolio" rel="Porfolio"><button type="button" class="button">portfolio</button></a>
+                <a href="#adoptme" rel="Adoptme"><button type="button" class="button" >adopt me</button></a>
+            </div> 
+
+            <div class="downarrow">
+                    <a href="#portfolio" rel="Portfolio"><img src="Down arrow.svg" alt="Downarrow" ></a>
+            </div>
+        </div>
+
+    </header>
+
+
+                      <!-- -----PORTFOLIO-----  -->
+
+
+    <div class=portfoliocontainer id="portfolio">
+
+            <h2 class="pagetitle">Portfolio</h2>
+
+            <div class="portflex">
+        <div class="container">
+            <img src="Portfolio/1.jpg" alt="1" class="image">
+            <div class="overlay overlayfade">
+                <div class="texte">BC. tabacco<br>Tobacco Brand</div>
+            </div>
+        </div>
+        <div class="container">
+            <img src="Portfolio/2.png" alt="2" class="image">
+            <div class="overlay overlayfade">
+                <div class="texte">Bc. colombo<br>Irish Pub</div>
+            </div>
+        </div>
+        <div class="container">
+            <img src="Portfolio/3.jpg" alt="3" class="image">
+            <div class="overlay overlayfade">
+                <div class="texte">Tarot card<br>The Black Witch</div>
+            </div>
+        </div>
+        <div class="container">
+            <img src="Portfolio/4.jpeg" alt="4" class="image">
+            <div class="overlay overlayfade">
+                <div class="texte">Le chat noir<br>French Theater Troop</div>
+            </div>
+        </div>
+        <div class="container">
+            <img src="Portfolio/5.jpg" alt="5" class="image">
+            <div class="overlay overlayfade">
+                <div class="texte">Vogue oct'19<br>Shooting</div>
+            </div>
+        </div>
+        <div class="container">
+            <img src="Portfolio/6.jpg" alt="6" class="image">
+            <div class="overlay overlayfade">
+                <div class="texte">Bc. gastronomy<br>Vegan Restaurant</div>
+            </div>
+        </div>
+
+        <!-- <div class="container morebox">
+            
+            <div>more to come !</div>
+            </div> -->
+
+
+
+        <div class="downarrow">
+                <a href="#adoptme" rel="adoptme"><img src="Down arrow.svg" alt="Downarrow" ></a>
+        </div>
+
+ </div>
+
+
+                 <!-- -----FORM---- -->
+
+
+        <div id=adoptme class=adoptcontainer> 
+                <h3 class="pagetitle">Adopt me</h3>
+            
+            <form>
+                <div class="allforms">
+                <p>Name</p>
+                <input type="text" name="name" placeholder="Enter your name here...">
+                </div>
+
+                <div class="allforms">
+                <p>Do you like cat ?</p>
+                <div class="radio">
+                    <input type="radio" name="answer" value="yes" > yes<br>
+                    <input type="radio" name="answer" value="no"> no<br>
+                    <input type="radio" name="answer" value="maybe"> maybe
+                </div> 
+                </div>
+
+                <div class="allforms">
+                <p>What's your favorite kind of cat ?</p>
+
+                <select name="kindfofcat" form="form" class="cuteform">
+                        <option value="cute">pretentious and cute</option>
+                        <option value="nice">pretentious and nice</option>
+                        <option value="opel">pretentious and </option>
+                        <option value="audi">pretentious and</option>
+                </select>
+                </div> 
+
+                <div class="allforms">
+                <p>Any comment ? <span>eg:I feel bad because I prefer dog, ... </span></p>
+                <textarea name="comment" form="form" placeholder="Type your comment here...">
+                    
+                </textarea>
+                </div>
+                </form>
+            </form>
+            <div class=portfoliobutton>
+                <a href="#" rel="submit"><input type="reset" value="reset" class="button" ></input></a>
+                <a href="#" rel="reset"><input type="submit"  value="submit" class="button"></input></a>
+            </div> 
+
+        </div>
+
+
+</body>
+
+</html>
